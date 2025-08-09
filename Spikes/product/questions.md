@@ -59,4 +59,10 @@ high-level key decisions of the overall application.
 1. How often could a supervisor be logged into to see requests? If they're not
    expected to be on the application often, how do we notify them of a pending
    request?
+1. On the supervisor UI, what sorts of filtering mechanisms can a user perform?
+   Can they review multiple businesses or only one? How should requests be
+   sorted? (perhaps reverse chronological order?) Is there a concept of placing
+   priority on specific requests? Are priorities decided by the supervisor or can
+   the ai agent identify very critical requests? How should the requests be arranged on the UI to
+   support potentially multiple pages cleanly?
 
