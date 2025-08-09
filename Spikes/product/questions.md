@@ -65,4 +65,15 @@ high-level key decisions of the overall application.
    priority on specific requests? Are priorities decided by the supervisor or can
    the ai agent identify very critical requests? How should the requests be arranged on the UI to
    support potentially multiple pages cleanly?
+1. Can a customer specify that they specifically want a supervisor to answer a
+   particular question? (i.e. the request is to have a human rep contact the
+   customer directly)
+1. Can a supervisor delete requests?
+1. Are there any legal requirements to clear up request data? Can it be
+   considered PII? (i.e. GDPR and CCPA requirements).
+1. What does the offborading process look like for a SMB that wants to delete
+   all their requests or close their account?
+1. How many concurrent customers can call a single SMB? Let's say the limit is
+   5, would the rest be in a call waiting? How high can we make this limit (more
+   of a technical/cost question.)
 
