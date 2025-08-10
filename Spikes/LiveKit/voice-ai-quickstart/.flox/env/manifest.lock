@@ -1,0 +1,261 @@
+{
+  "lockfile-version": 1,
+  "manifest": {
+    "version": 1,
+    "install": {
+      "python-dotenv": {
+        "pkg-path": "python313Packages.python-dotenv"
+      },
+      "python3": {
+        "pkg-path": "python3"
+      }
+    },
+    "vars": {
+      "EDITOR": "vim",
+      "VISUAL": "vim"
+    },
+    "hook": {},
+    "profile": {},
+    "options": {}
+  },
+  "packages": [
+    {
+      "attr_path": "python313Packages.python-dotenv",
+      "broken": false,
+      "derivation": "/nix/store/3irizb14dgfxi0dmbs5r9zkx4vwc3db2-python3.13-python-dotenv-1.1.0.drv",
+      "description": "Add .env support to your django/flask apps in development and deployments",
+      "install_id": "python-dotenv",
+      "license": "BSD-4-Clause",
+      "locked_url": "https://github.com/flox/nixpkgs?rev=5b09dc45f24cf32316283e62aec81ffee3c3e376",
+      "name": "python3.13-python-dotenv-1.1.0",
+      "pname": "python-dotenv",
+      "rev": "5b09dc45f24cf32316283e62aec81ffee3c3e376",
+      "rev_count": 838708,
+      "rev_date": "2025-08-03T09:47:33Z",
+      "scrape_date": "2025-08-05T00:29:46.790956Z",
+      "stabilities": [
+        "unstable"
+      ],
+      "unfree": false,
+      "version": "1.1.0",
+      "outputs_to_install": [
+        "out"
+      ],
+      "outputs": {
+        "dist": "/nix/store/9ya6k6h6z6ncv6h4b46a3khbpw00mcfb-python3.13-python-dotenv-1.1.0-dist",
+        "out": "/nix/store/x2qs9jh0liqg11jzwxiifxs3mv56a47d-python3.13-python-dotenv-1.1.0"
+      },
+      "system": "aarch64-darwin",
+      "group": "toplevel",
+      "priority": 5
+    },
+    {
+      "attr_path": "python313Packages.python-dotenv",
+      "broken": false,
+      "derivation": "/nix/store/l9cghn67y8pib9bpcx8f88jvsdwcbg7n-python3.13-python-dotenv-1.1.0.drv",
+      "description": "Add .env support to your django/flask apps in development and deployments",
+      "install_id": "python-dotenv",
+      "license": "BSD-4-Clause",
+      "locked_url": "https://github.com/flox/nixpkgs?rev=5b09dc45f24cf32316283e62aec81ffee3c3e376",
+      "name": "python3.13-python-dotenv-1.1.0",
+      "pname": "python-dotenv",
+      "rev": "5b09dc45f24cf32316283e62aec81ffee3c3e376",
+      "rev_count": 838708,
+      "rev_date": "2025-08-03T09:47:33Z",
+      "scrape_date": "2025-08-05T00:50:02.265850Z",
+      "stabilities": [
+        "unstable"
+      ],
+      "unfree": false,
+      "version": "1.1.0",
+      "outputs_to_install": [
+        "out"
+      ],
+      "outputs": {
+        "dist": "/nix/store/2n1647gjn9iwqym1pxjyzgh86gchpkqd-python3.13-python-dotenv-1.1.0-dist",
+        "out": "/nix/store/a8hlxjy6pcmlnz01vfp8z8fd87hk6nga-python3.13-python-dotenv-1.1.0"
+      },
+      "system": "aarch64-linux",
+      "group": "toplevel",
+      "priority": 5
+    },
+    {
+      "attr_path": "python313Packages.python-dotenv",
+      "broken": false,
+      "derivation": "/nix/store/ci0pxhb14lxd0dwmlhhmv6x4pj8fd2yn-python3.13-python-dotenv-1.1.0.drv",
+      "description": "Add .env support to your django/flask apps in development and deployments",
+      "install_id": "python-dotenv",
+      "license": "BSD-4-Clause",
+      "locked_url": "https://github.com/flox/nixpkgs?rev=5b09dc45f24cf32316283e62aec81ffee3c3e376",
+      "name": "python3.13-python-dotenv-1.1.0",
+      "pname": "python-dotenv",
+      "rev": "5b09dc45f24cf32316283e62aec81ffee3c3e376",
+      "rev_count": 838708,
+      "rev_date": "2025-08-03T09:47:33Z",
+      "scrape_date": "2025-08-05T01:09:14.939373Z",
+      "stabilities": [
+        "unstable"
+      ],
+      "unfree": false,
+      "version": "1.1.0",
+      "outputs_to_install": [
+        "out"
+      ],
+      "outputs": {
+        "dist": "/nix/store/pb3aq7j68skv0bdl84wqh45jbfwhfs6b-python3.13-python-dotenv-1.1.0-dist",
+        "out": "/nix/store/82j7q2zgqibbfxbryd8cci7ylg4dzrns-python3.13-python-dotenv-1.1.0"
+      },
+      "system": "x86_64-darwin",
+      "group": "toplevel",
+      "priority": 5
+    },
+    {
+      "attr_path": "python313Packages.python-dotenv",
+      "broken": false,
+      "derivation": "/nix/store/2wal1msar5qhrybfcxp2qawq4is7iamn-python3.13-python-dotenv-1.1.0.drv",
+      "description": "Add .env support to your django/flask apps in development and deployments",
+      "install_id": "python-dotenv",
+      "license": "BSD-4-Clause",
+      "locked_url": "https://github.com/flox/nixpkgs?rev=5b09dc45f24cf32316283e62aec81ffee3c3e376",
+      "name": "python3.13-python-dotenv-1.1.0",
+      "pname": "python-dotenv",
+      "rev": "5b09dc45f24cf32316283e62aec81ffee3c3e376",
+      "rev_count": 838708,
+      "rev_date": "2025-08-03T09:47:33Z",
+      "scrape_date": "2025-08-05T01:33:47.634193Z",
+      "stabilities": [
+        "unstable"
+      ],
+      "unfree": false,
+      "version": "1.1.0",
+      "outputs_to_install": [
+        "out"
+      ],
+      "outputs": {
+        "dist": "/nix/store/44jx6a5d8gjd875dwpps3fw9r5540l2q-python3.13-python-dotenv-1.1.0-dist",
+        "out": "/nix/store/jayy33dp6rgblymiwvlsp2pnwk52j3wa-python3.13-python-dotenv-1.1.0"
+      },
+      "system": "x86_64-linux",
+      "group": "toplevel",
+      "priority": 5
+    },
+    {
+      "attr_path": "python3",
+      "broken": false,
+      "derivation": "/nix/store/0sgpwdw94q31k5y4gfblnwr7vf7cdkvx-python3-3.13.5.drv",
+      "description": "High-level dynamically-typed programming language",
+      "install_id": "python3",
+      "license": "Python-2.0",
+      "locked_url": "https://github.com/flox/nixpkgs?rev=5b09dc45f24cf32316283e62aec81ffee3c3e376",
+      "name": "python3-3.13.5",
+      "pname": "python3",
+      "rev": "5b09dc45f24cf32316283e62aec81ffee3c3e376",
+      "rev_count": 838708,
+      "rev_date": "2025-08-03T09:47:33Z",
+      "scrape_date": "2025-08-05T00:29:30.135955Z",
+      "stabilities": [
+        "unstable"
+      ],
+      "unfree": false,
+      "version": "3.13.5",
+      "outputs_to_install": [
+        "out"
+      ],
+      "outputs": {
+        "out": "/nix/store/v72ywdz0dd2d6sb3knymx9ww8r6pcqba-python3-3.13.5"
+      },
+      "system": "aarch64-darwin",
+      "group": "toplevel",
+      "priority": 5
+    },
+    {
+      "attr_path": "python3",
+      "broken": false,
+      "derivation": "/nix/store/1cdadwmiqljyxpc2q5fsicj24yf6vir4-python3-3.13.5.drv",
+      "description": "High-level dynamically-typed programming language",
+      "install_id": "python3",
+      "license": "Python-2.0",
+      "locked_url": "https://github.com/flox/nixpkgs?rev=5b09dc45f24cf32316283e62aec81ffee3c3e376",
+      "name": "python3-3.13.5",
+      "pname": "python3",
+      "rev": "5b09dc45f24cf32316283e62aec81ffee3c3e376",
+      "rev_count": 838708,
+      "rev_date": "2025-08-03T09:47:33Z",
+      "scrape_date": "2025-08-05T00:49:37.184582Z",
+      "stabilities": [
+        "unstable"
+      ],
+      "unfree": false,
+      "version": "3.13.5",
+      "outputs_to_install": [
+        "out"
+      ],
+      "outputs": {
+        "debug": "/nix/store/lnjp4kv8avwmkrfxxxa38pyqxqx6ajpv-python3-3.13.5-debug",
+        "out": "/nix/store/cr7c6cf8y7sbqwq9bj7lrm977x7c4mv9-python3-3.13.5"
+      },
+      "system": "aarch64-linux",
+      "group": "toplevel",
+      "priority": 5
+    },
+    {
+      "attr_path": "python3",
+      "broken": false,
+      "derivation": "/nix/store/y4m8sfxbkhwzd29qp601973gxfs4bkv4-python3-3.13.5.drv",
+      "description": "High-level dynamically-typed programming language",
+      "install_id": "python3",
+      "license": "Python-2.0",
+      "locked_url": "https://github.com/flox/nixpkgs?rev=5b09dc45f24cf32316283e62aec81ffee3c3e376",
+      "name": "python3-3.13.5",
+      "pname": "python3",
+      "rev": "5b09dc45f24cf32316283e62aec81ffee3c3e376",
+      "rev_count": 838708,
+      "rev_date": "2025-08-03T09:47:33Z",
+      "scrape_date": "2025-08-05T01:08:58.399168Z",
+      "stabilities": [
+        "unstable"
+      ],
+      "unfree": false,
+      "version": "3.13.5",
+      "outputs_to_install": [
+        "out"
+      ],
+      "outputs": {
+        "out": "/nix/store/9zzyv1p496m8b7j8v3y2dqq1xii9anx5-python3-3.13.5"
+      },
+      "system": "x86_64-darwin",
+      "group": "toplevel",
+      "priority": 5
+    },
+    {
+      "attr_path": "python3",
+      "broken": false,
+      "derivation": "/nix/store/5cjmvj85qx59nw08isq5q63kvc3ccwi1-python3-3.13.5.drv",
+      "description": "High-level dynamically-typed programming language",
+      "install_id": "python3",
+      "license": "Python-2.0",
+      "locked_url": "https://github.com/flox/nixpkgs?rev=5b09dc45f24cf32316283e62aec81ffee3c3e376",
+      "name": "python3-3.13.5",
+      "pname": "python3",
+      "rev": "5b09dc45f24cf32316283e62aec81ffee3c3e376",
+      "rev_count": 838708,
+      "rev_date": "2025-08-03T09:47:33Z",
+      "scrape_date": "2025-08-05T01:33:22.063314Z",
+      "stabilities": [
+        "unstable"
+      ],
+      "unfree": false,
+      "version": "3.13.5",
+      "outputs_to_install": [
+        "out"
+      ],
+      "outputs": {
+        "debug": "/nix/store/h5y23q0k2xzr0aa17y7b82y826ch7yq9-python3-3.13.5-debug",
+        "out": "/nix/store/9yh9ak97gn659bk4d3n411fx6c0ng7s2-python3-3.13.5"
+      },
+      "system": "x86_64-linux",
+      "group": "toplevel",
+      "priority": 5
+    }
+  ]
+}
