@@ -3,6 +3,9 @@
   "manifest": {
     "version": 1,
     "install": {
+      "pnpm": {
+        "pkg-path": "pnpm"
+      },
       "vite": {
         "pkg-path": "vite",
         "systems": [
@@ -20,6 +23,122 @@
     "options": {}
   },
   "packages": [
+    {
+      "attr_path": "pnpm",
+      "broken": false,
+      "derivation": "/nix/store/mbnsjzlan6bxpyfq7l5wm1snm4fynj7g-pnpm-10.14.0.drv",
+      "description": "Fast, disk space efficient package manager for JavaScript",
+      "install_id": "pnpm",
+      "license": "MIT",
+      "locked_url": "https://github.com/flox/nixpkgs?rev=5b09dc45f24cf32316283e62aec81ffee3c3e376",
+      "name": "pnpm-10.14.0",
+      "pname": "pnpm",
+      "rev": "5b09dc45f24cf32316283e62aec81ffee3c3e376",
+      "rev_count": 838708,
+      "rev_date": "2025-08-03T09:47:33Z",
+      "scrape_date": "2025-08-05T00:29:29.383006Z",
+      "stabilities": [
+        "unstable"
+      ],
+      "unfree": false,
+      "version": "10.14.0",
+      "outputs_to_install": [
+        "out"
+      ],
+      "outputs": {
+        "out": "/nix/store/zbrkyacg6llvr23i9jymcqpdply66wcb-pnpm-10.14.0"
+      },
+      "system": "aarch64-darwin",
+      "group": "toplevel",
+      "priority": 5
+    },
+    {
+      "attr_path": "pnpm",
+      "broken": false,
+      "derivation": "/nix/store/d272dgm94ngv832j59klzn98j2xkg7ym-pnpm-10.14.0.drv",
+      "description": "Fast, disk space efficient package manager for JavaScript",
+      "install_id": "pnpm",
+      "license": "MIT",
+      "locked_url": "https://github.com/flox/nixpkgs?rev=5b09dc45f24cf32316283e62aec81ffee3c3e376",
+      "name": "pnpm-10.14.0",
+      "pname": "pnpm",
+      "rev": "5b09dc45f24cf32316283e62aec81ffee3c3e376",
+      "rev_count": 838708,
+      "rev_date": "2025-08-03T09:47:33Z",
+      "scrape_date": "2025-08-05T00:49:35.817210Z",
+      "stabilities": [
+        "unstable"
+      ],
+      "unfree": false,
+      "version": "10.14.0",
+      "outputs_to_install": [
+        "out"
+      ],
+      "outputs": {
+        "out": "/nix/store/cfpp6ffy67vvzz1l6vqddkxzffs2m790-pnpm-10.14.0"
+      },
+      "system": "aarch64-linux",
+      "group": "toplevel",
+      "priority": 5
+    },
+    {
+      "attr_path": "pnpm",
+      "broken": false,
+      "derivation": "/nix/store/mzms4q8gavdnl048mb4ykgp231zf9n79-pnpm-10.14.0.drv",
+      "description": "Fast, disk space efficient package manager for JavaScript",
+      "install_id": "pnpm",
+      "license": "MIT",
+      "locked_url": "https://github.com/flox/nixpkgs?rev=5b09dc45f24cf32316283e62aec81ffee3c3e376",
+      "name": "pnpm-10.14.0",
+      "pname": "pnpm",
+      "rev": "5b09dc45f24cf32316283e62aec81ffee3c3e376",
+      "rev_count": 838708,
+      "rev_date": "2025-08-03T09:47:33Z",
+      "scrape_date": "2025-08-05T01:08:57.643218Z",
+      "stabilities": [
+        "unstable"
+      ],
+      "unfree": false,
+      "version": "10.14.0",
+      "outputs_to_install": [
+        "out"
+      ],
+      "outputs": {
+        "out": "/nix/store/iryjb73pn84bczcr751608rjbpbzm721-pnpm-10.14.0"
+      },
+      "system": "x86_64-darwin",
+      "group": "toplevel",
+      "priority": 5
+    },
+    {
+      "attr_path": "pnpm",
+      "broken": false,
+      "derivation": "/nix/store/d5iq575j1lwp66lmr2pgx8rdk7d8cpww-pnpm-10.14.0.drv",
+      "description": "Fast, disk space efficient package manager for JavaScript",
+      "install_id": "pnpm",
+      "license": "MIT",
+      "locked_url": "https://github.com/flox/nixpkgs?rev=5b09dc45f24cf32316283e62aec81ffee3c3e376",
+      "name": "pnpm-10.14.0",
+      "pname": "pnpm",
+      "rev": "5b09dc45f24cf32316283e62aec81ffee3c3e376",
+      "rev_count": 838708,
+      "rev_date": "2025-08-03T09:47:33Z",
+      "scrape_date": "2025-08-05T01:33:20.591888Z",
+      "stabilities": [
+        "unstable"
+      ],
+      "unfree": false,
+      "version": "10.14.0",
+      "outputs_to_install": [
+        "out"
+      ],
+      "outputs": {
+        "out": "/nix/store/q4cljfi7la5sbb75vb2kkgvbg2qwgz2x-pnpm-10.14.0"
+      },
+      "system": "x86_64-linux",
+      "group": "toplevel",
+      "priority": 5
+    },
     {
       "attr_path": "vite",
       "broken": false,
