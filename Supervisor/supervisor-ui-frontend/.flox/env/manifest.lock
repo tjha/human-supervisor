@@ -1,0 +1,82 @@
+{
+  "lockfile-version": 1,
+  "manifest": {
+    "version": 1,
+    "install": {
+      "vite": {
+        "pkg-path": "vite",
+        "systems": [
+          "aarch64-linux",
+          "x86_64-linux"
+        ]
+      }
+    },
+    "vars": {
+      "EDITOR": "vim",
+      "VISUAL": "vim"
+    },
+    "hook": {},
+    "profile": {},
+    "options": {}
+  },
+  "packages": [
+    {
+      "attr_path": "vite",
+      "broken": false,
+      "derivation": "/nix/store/samddjbb4yzklkd8zxwfp0pcr2wij6r5-vite-unstable-2022-05-17.drv",
+      "description": "Visual Trace Explorer (ViTE), a tool to visualize execution traces",
+      "install_id": "vite",
+      "license": "CECILL-2.0",
+      "locked_url": "https://github.com/flox/nixpkgs?rev=5b09dc45f24cf32316283e62aec81ffee3c3e376",
+      "name": "vite-unstable-2022-05-17",
+      "pname": "vite",
+      "rev": "5b09dc45f24cf32316283e62aec81ffee3c3e376",
+      "rev_count": 838708,
+      "rev_date": "2025-08-03T09:47:33Z",
+      "scrape_date": "2025-08-05T00:50:54.617227Z",
+      "stabilities": [
+        "unstable"
+      ],
+      "unfree": false,
+      "version": "2022-05-17",
+      "outputs_to_install": [
+        "out"
+      ],
+      "outputs": {
+        "out": "/nix/store/mygynllbxwza4nqbqk9ch7qi2n9zxlsm-vite-unstable-2022-05-17"
+      },
+      "system": "aarch64-linux",
+      "group": "toplevel",
+      "priority": 5
+    },
+    {
+      "attr_path": "vite",
+      "broken": false,
+      "derivation": "/nix/store/d9xg8nsn345xgb74rh3qx2hg7d4g4wfg-vite-unstable-2022-05-17.drv",
+      "description": "Visual Trace Explorer (ViTE), a tool to visualize execution traces",
+      "install_id": "vite",
+      "license": "CECILL-2.0",
+      "locked_url": "https://github.com/flox/nixpkgs?rev=5b09dc45f24cf32316283e62aec81ffee3c3e376",
+      "name": "vite-unstable-2022-05-17",
+      "pname": "vite",
+      "rev": "5b09dc45f24cf32316283e62aec81ffee3c3e376",
+      "rev_count": 838708,
+      "rev_date": "2025-08-03T09:47:33Z",
+      "scrape_date": "2025-08-05T01:34:41.971020Z",
+      "stabilities": [
+        "unstable"
+      ],
+      "unfree": false,
+      "version": "2022-05-17",
+      "outputs_to_install": [
+        "out"
+      ],
+      "outputs": {
+        "out": "/nix/store/9kxw0w0wa35apqlrdrkgf30ham2smi14-vite-unstable-2022-05-17"
+      },
+      "system": "x86_64-linux",
+      "group": "toplevel",
+      "priority": 5
+    }
+  ]
+}
