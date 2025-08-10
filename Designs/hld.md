@@ -23,27 +23,27 @@ the overall design. Requirements are tagged by their corresponding phased
 release (i.e. P0, P1, etc.).
 
 ***As a customer interacting with an AI agent receptionist, I can:***
-    1. **[P0]** Ask about basic SMB details and offerings and get immediate
-       responses from the ai agent.
-    1. **[P0]** Ask more complicated questions for which I can receive answers
-       through text or email if not answered during the live call.
-    1. **[P1]** Be redirected and talk directly to a human supervisor if the ai
-       agent cannot answer my query.
+1. **[P0]** Ask about basic SMB details and offerings and get immediate
+   responses from the ai agent.
+1. **[P0]** Ask more complicated questions for which I can receive answers
+   through text or email if not answered during the live call.
+1. **[P1]** Be redirected and talk directly to a human supervisor if the ai
+   agent cannot answer my query.
 
 ***As a supervisor at an SMB responding to AI agent requests, I can::***
-    1. **[P0]** View all requests for my SMB in reverse chronological
-       order.
-    1. **[P0]** View all learned responses by my AI agent.
-    1. **[P1]** See highly prioritized requests by the ai agent at the top.
-    1. **[P1]** Manually mark specific requests as high priority.
-    1. **[P1]** Receive an SMS/email for highly urgent requests.
-    1. **[P2]** Respond to a customer immediately through a phone transfer
-       when the ai agent cannot answer a question.
+1. **[P0]** View all requests for my SMB in reverse chronological
+   order.
+1. **[P0]** View all learned responses by my AI agent.
+1. **[P1]** See highly prioritized requests by the ai agent at the top.
+1. **[P1]** Manually mark specific requests as high priority.
+1. **[P1]** Receive an SMS/email for highly urgent requests.
+1. **[P2]** Respond to a customer immediately through a phone transfer
+   when the ai agent cannot answer a question.
 
 ***As an SMB rep (could also be supervisor)  maintaining the functionality of 
 our AI agent receptionist, I can:***
-    1. **[P0]** View all learned answers by the ai agent from supervisor
-       responses.
+1. **[P0]** View all learned answers by the ai agent from supervisor
+   responses.
 
 ### Technical Requirements
 1. Cost
