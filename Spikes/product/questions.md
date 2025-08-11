@@ -76,4 +76,6 @@ high-level key decisions of the overall application.
 1. How many concurrent customers can call a single SMB? Let's say the limit is
    5, would the rest be in a call waiting? How high can we make this limit (more
    of a technical/cost question.)
+1. Can the learnings of an agent for one SMB also be part of the KnowledgeBase
+   for an agent for another SMB?
 
