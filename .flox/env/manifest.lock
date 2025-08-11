@@ -1,0 +1,14 @@
+{
+  "lockfile-version": 1,
+  "manifest": {
+    "version": 1,
+    "vars": {
+      "EDITOR": "vim",
+      "VISUAL": "vim"
+    },
+    "hook": {},
+    "profile": {},
+    "options": {}
+  },
+  "packages": []
+}
