@@ -1,0 +1,140 @@
+{
+  "lockfile-version": 1,
+  "manifest": {
+    "version": 1,
+    "install": {
+      "fastapi-cli": {
+        "pkg-path": "fastapi-cli"
+      }
+    },
+    "vars": {
+      "EDITOR": "vim",
+      "VISUAL": "vim"
+    },
+    "hook": {},
+    "profile": {},
+    "options": {}
+  },
+  "packages": [
+    {
+      "attr_path": "fastapi-cli",
+      "broken": false,
+      "derivation": "/nix/store/ziympadiyh7w9nlhldf6hd68d849al2z-python3.13-fastapi-cli-0.0.7.drv",
+      "description": "Run and manage FastAPI apps from the command line with FastAPI CLI",
+      "install_id": "fastapi-cli",
+      "license": "MIT",
+      "locked_url": "https://github.com/flox/nixpkgs?rev=5b09dc45f24cf32316283e62aec81ffee3c3e376",
+      "name": "fastapi-cli-0.0.7",
+      "pname": "fastapi-cli",
+      "rev": "5b09dc45f24cf32316283e62aec81ffee3c3e376",
+      "rev_count": 838708,
+      "rev_date": "2025-08-03T09:47:33Z",
+      "scrape_date": "2025-08-05T00:29:21.121816Z",
+      "stabilities": [
+        "unstable"
+      ],
+      "unfree": false,
+      "version": "0.0.7",
+      "outputs_to_install": [
+        "out"
+      ],
+      "outputs": {
+        "dist": "/nix/store/204ln3rmnyrrsksyf0a0hr05qmsyfm4j-python3.13-fastapi-cli-0.0.7-dist",
+        "out": "/nix/store/nsrkr2q8ifz7pa3jqcv2xclp1am5x0vf-python3.13-fastapi-cli-0.0.7"
+      },
+      "system": "aarch64-darwin",
+      "group": "toplevel",
+      "priority": 5
+    },
+    {
+      "attr_path": "fastapi-cli",
+      "broken": false,
+      "derivation": "/nix/store/ns2bi7i89lslnaz8sp13frjaf40yp9x7-python3.13-fastapi-cli-0.0.7.drv",
+      "description": "Run and manage FastAPI apps from the command line with FastAPI CLI",
+      "install_id": "fastapi-cli",
+      "license": "MIT",
+      "locked_url": "https://github.com/flox/nixpkgs?rev=5b09dc45f24cf32316283e62aec81ffee3c3e376",
+      "name": "fastapi-cli-0.0.7",
+      "pname": "fastapi-cli",
+      "rev": "5b09dc45f24cf32316283e62aec81ffee3c3e376",
+      "rev_count": 838708,
+      "rev_date": "2025-08-03T09:47:33Z",
+      "scrape_date": "2025-08-05T00:49:15.323804Z",
+      "stabilities": [
+        "unstable"
+      ],
+      "unfree": false,
+      "version": "0.0.7",
+      "outputs_to_install": [
+        "out"
+      ],
+      "outputs": {
+        "dist": "/nix/store/p1ybbdy39wrvg2vckzk4n3l38i6n5p3y-python3.13-fastapi-cli-0.0.7-dist",
+        "out": "/nix/store/53rapgbxi329x2ps4fcxf9p44ppsnv6z-python3.13-fastapi-cli-0.0.7"
+      },
+      "system": "aarch64-linux",
+      "group": "toplevel",
+      "priority": 5
+    },
+    {
+      "attr_path": "fastapi-cli",
+      "broken": false,
+      "derivation": "/nix/store/dw1fhvsqppryhqsz0vcp2gxclm3mj7b1-python3.13-fastapi-cli-0.0.7.drv",
+      "description": "Run and manage FastAPI apps from the command line with FastAPI CLI",
+      "install_id": "fastapi-cli",
+      "license": "MIT",
+      "locked_url": "https://github.com/flox/nixpkgs?rev=5b09dc45f24cf32316283e62aec81ffee3c3e376",
+      "name": "fastapi-cli-0.0.7",
+      "pname": "fastapi-cli",
+      "rev": "5b09dc45f24cf32316283e62aec81ffee3c3e376",
+      "rev_count": 838708,
+      "rev_date": "2025-08-03T09:47:33Z",
+      "scrape_date": "2025-08-05T01:08:49.277942Z",
+      "stabilities": [
+        "unstable"
+      ],
+      "unfree": false,
+      "version": "0.0.7",
+      "outputs_to_install": [
+        "out"
+      ],
+      "outputs": {
+        "dist": "/nix/store/92kwr2x82mrld46z0ribd6rfnhqfpa5g-python3.13-fastapi-cli-0.0.7-dist",
+        "out": "/nix/store/bv6lhy0n3h6kjffhf1wm4fdk9yiwcmgf-python3.13-fastapi-cli-0.0.7"
+      },
+      "system": "x86_64-darwin",
+      "group": "toplevel",
+      "priority": 5
+    },
+    {
+      "attr_path": "fastapi-cli",
+      "broken": false,
+      "derivation": "/nix/store/0l49aibndzx1x6qlkfykkyxpyarx5wcj-python3.13-fastapi-cli-0.0.7.drv",
+      "description": "Run and manage FastAPI apps from the command line with FastAPI CLI",
+      "install_id": "fastapi-cli",
+      "license": "MIT",
+      "locked_url": "https://github.com/flox/nixpkgs?rev=5b09dc45f24cf32316283e62aec81ffee3c3e376",
+      "name": "fastapi-cli-0.0.7",
+      "pname": "fastapi-cli",
+      "rev": "5b09dc45f24cf32316283e62aec81ffee3c3e376",
+      "rev_count": 838708,
+      "rev_date": "2025-08-03T09:47:33Z",
+      "scrape_date": "2025-08-05T01:32:58.191271Z",
+      "stabilities": [
+        "unstable"
+      ],
+      "unfree": false,
+      "version": "0.0.7",
+      "outputs_to_install": [
+        "out"
+      ],
+      "outputs": {
+        "dist": "/nix/store/7s85z3phpck6ij677q48n74q430xx3np-python3.13-fastapi-cli-0.0.7-dist",
+        "out": "/nix/store/sg079bgwbflxppv3fpai9hskmyagkavn-python3.13-fastapi-cli-0.0.7"
+      },
+      "system": "x86_64-linux",
+      "group": "toplevel",
+      "priority": 5
+    }
+  ]
+}
