@@ -2,7 +2,7 @@
 // SPDX-License-Identifier: MIT-0
 import React from 'react';
 
-import { BrowserRouter, Routes, Route } from "react-router-dom";
+import { BrowserRouter, Routes, Route, Navigate } from "react-router-dom";
 import { PendingRequests } from "./pages/pending-requests";
 import NoPage from "./pages/NoPage/noPage";
 import Layout from "./pages/Layout.tsx";
@@ -15,12 +15,14 @@ export function App() {
     return (
         <BrowserRouter>
             <Routes>
-                <Route path="/" element={<Layout />}>
-                    <Route index element={<PendingRequests />} />
+                <Route path="/store/:storeId/" element={<Layout />}>
+                    <Route index element={<Navigate to="requests/pending" />} />
                     <Route path="requests/pending" element={<PendingRequests />} />
                     <Route path="requests/history" element={<RequestHistory />} />
                     <Route path="requests/request/:requestId" element={<Request />} />
                     <Route path="*" element={<NoPage />} />
+                </Route>
+                <Route path="/" element={<NoPage />}>
                 </Route>
             </Routes>
         </BrowserRouter>
