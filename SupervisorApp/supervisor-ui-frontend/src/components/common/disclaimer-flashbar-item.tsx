@@ -2,7 +2,7 @@
 // SPDX-License-Identifier: MIT-0
 import React, { useId } from 'react';
 
-import type {FlashbarProps} from '@cloudscape-design/components/flashbar';
+import type { FlashbarProps } from '@cloudscape-design/components/flashbar';
 
 export function useDisclaimerFlashbarItem(onDismiss: (id: string) => void): FlashbarProps.MessageDefinition | null {
     const id = useId();

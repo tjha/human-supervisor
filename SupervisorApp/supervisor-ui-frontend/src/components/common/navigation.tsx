@@ -2,9 +2,9 @@
 // SPDX-License-Identifier: MIT-0
 import React from 'react';
 
-import SideNavigation, {type SideNavigationProps } from '@cloudscape-design/components/side-navigation';
+import SideNavigation, { type SideNavigationProps } from '@cloudscape-design/components/side-navigation';
 
-import {navItems} from "./navitems.ts";
+import { navItems } from "./navitems.ts";
 
 const navHeader = { text: 'Service', href: '#/' };
 

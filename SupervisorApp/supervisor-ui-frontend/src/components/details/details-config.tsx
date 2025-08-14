@@ -3,7 +3,7 @@
 import React from 'react';
 
 import Link from '@cloudscape-design/components/link';
-import type {TableProps} from '@cloudscape-design/components/table';
+import type { TableProps } from '@cloudscape-design/components/table';
 
 export const INSTANCE_DROPDOWN_ITEMS = [
     {

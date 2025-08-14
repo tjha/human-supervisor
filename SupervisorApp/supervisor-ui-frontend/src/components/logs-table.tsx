@@ -7,7 +7,7 @@ import Button from '@cloudscape-design/components/button';
 import Header from '@cloudscape-design/components/header';
 import Link from '@cloudscape-design/components/link';
 import SpaceBetween from '@cloudscape-design/components/space-between';
-import Table, {type TableProps } from '@cloudscape-design/components/table';
+import Table, { type TableProps } from '@cloudscape-design/components/table';
 
 import { getHeaderCounterText } from '../i18n-strings';
 import DataProvider from './common/data-provider';

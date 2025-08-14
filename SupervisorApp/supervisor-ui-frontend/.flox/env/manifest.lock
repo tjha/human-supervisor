@@ -22,7 +22,9 @@
       "VISUAL": "vim"
     },
     "hook": {},
-    "profile": {},
+    "profile": {
+      "common": "alias p='pnpm'"
+    },
     "options": {}
   },
   "packages": [

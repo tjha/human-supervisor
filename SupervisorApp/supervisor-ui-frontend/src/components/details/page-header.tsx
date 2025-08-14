@@ -3,7 +3,7 @@
 import React from 'react';
 
 import Button from '@cloudscape-design/components/button';
-import ButtonDropdown, {type ButtonDropdownProps } from '@cloudscape-design/components/button-dropdown';
+import ButtonDropdown, { type ButtonDropdownProps } from '@cloudscape-design/components/button-dropdown';
 import Header from '@cloudscape-design/components/header';
 import SpaceBetween from '@cloudscape-design/components/space-between';
 

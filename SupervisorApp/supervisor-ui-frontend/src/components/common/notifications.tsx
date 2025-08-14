@@ -2,7 +2,7 @@
 // SPDX-License-Identifier: MIT-0
 import React, { useId, useState } from 'react';
 
-import Flashbar, {type FlashbarProps } from '@cloudscape-design/components/flashbar';
+import Flashbar, { type FlashbarProps } from '@cloudscape-design/components/flashbar';
 
 import { useDisclaimerFlashbarItem } from './disclaimer-flashbar-item';
 

@@ -2,38 +2,27 @@
 // SPDX-License-Identifier: MIT-0
 import React from 'react';
 
-import SpaceBetween from '@cloudscape-design/components/space-between';
+import { BrowserRouter, Routes, Route } from "react-router-dom";
+import { PendingRequests } from "./pages/pending-requests";
+import NoPage from "./pages/NoPage/noPage";
+import Layout from "./pages/Layout.tsx";
+import { RequestHistory } from "./pages/requests-history";
+import { Request } from "./pages/request";
 
-import { CustomAppLayout, Navigation, Notifications } from './components/common/common-components';
-import { Breadcrumbs } from './components/details/breadcrumbs';
-import { GeneralConfig } from './components/details/general-config';
-import { PageHeader } from './components/details/page-header';
-import { INSTANCE_DROPDOWN_ITEMS } from './components/details/details-config.tsx';
-import { LogsTable } from './components/logs-table';
-
+// Inspired by https://www.w3schools.com/react/react_router.asp
 export function App() {
-  return (
-    <CustomAppLayout
-      content={
-        <SpaceBetween size="m">
-          <PageHeader
-            buttons={[
-              { text: 'Actions', items: INSTANCE_DROPDOWN_ITEMS },
-              { text: 'Edit', itemType: 'action', id: 'edit' },
-              { text: 'Delete', itemType: 'action', id: 'delete' },
-            ]}
-          />
-          <SpaceBetween size="l">
-            <GeneralConfig />
-            <LogsTable />
-          </SpaceBetween>
-        </SpaceBetween>
-      }
-      breadcrumbs={<Breadcrumbs />}
-      navigation={<Navigation activeHref="#/distributions" />}
-      toolsHide={true}
-      contentType="default"
-      notifications={<Notifications />}
-    />
-  );
+    // TODO: Add support to verify login before routing to home page
+    return (
+        <BrowserRouter>
+            <Routes>
+                <Route path="/" element={<Layout />}>
+                    <Route index element={<PendingRequests />} />
+                    <Route path="requests/pending" element={<PendingRequests />} />
+                    <Route path="requests/history" element={<RequestHistory />} />
+                    <Route path="requests/request/:requestId" element={<Request />} />
+                    <Route path="*" element={<NoPage />} />
+                </Route>
+            </Routes>
+        </BrowserRouter>
+    );
 }
