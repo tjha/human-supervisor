@@ -28,8 +28,6 @@ def get_request(store_id: str, request_id: str):
 
 @app.post("/stores/{store_id}/requests")
 def create_request(store_id: str, request: Request):
-    print(store_id)
-    print(type(store_id))
     request_schema = requestSchema.construct_request_schema(request, store_id)
     requests_repository.create_request(request_schema.model_dump())
     return request_schema # TODO: Replace with a defined success/failure status response
