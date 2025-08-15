@@ -4,6 +4,7 @@ This table looked neat, so going to use this as a base for the UI:https://www.si
 
 
 ## Notes
+
 * Starting with components similar to what I've worked with in the past:
   https://cloudscape.design/
 * Mobile-first approach take. ***Why?*** A majority of Frontdesk clients are
@@ -18,12 +19,18 @@ This table looked neat, so going to use this as a base for the UI:https://www.si
 *
 
 ## Improvements
+
 * Login experience
 * Instead of using aws frontend components, it would be more ideal to have some custom components and design to 
   align with the Frontdesk branding.
 * Test cases for all components
 * I8n of strings
-* 
+* Optimize to fetch body snippet instead of the entire string on the pending requests page
+* Auto-refresh and/or infinite scrolling functionality
+* Experiment more with client and server-side sorting to minimize lag to users
+* Using a state management library like Redux
+* More robust CSS for style across the platform
+* Mechanism to switch order from newest to oldest first
 
 ## License
 Significant portions of this code was built through direct use of as well as modifications to components made publically

@@ -11,6 +11,7 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "@cloudscape-design/collection-hooks": "^1.0.74",
     "@cloudscape-design/components": "^3.0.1061",
     "@cloudscape-design/design-tokens": "^3.0.59",
     "@cloudscape-design/global-styles": "^1.0.45",

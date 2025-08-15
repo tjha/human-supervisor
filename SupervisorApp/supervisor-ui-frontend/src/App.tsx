@@ -8,6 +8,7 @@ import NoPage from "./pages/NoPage/noPage";
 import Layout from "./pages/Layout.tsx";
 import { RequestHistory } from "./pages/requests-history";
 import { Request } from "./pages/request";
+import { TopNav } from "./components/common/top-nav.tsx";
 
 // Inspired by https://www.w3schools.com/react/react_router.asp
 export function App() {
@@ -19,7 +20,7 @@ export function App() {
                     <Route index element={<Navigate to="requests/pending" />} />
                     <Route path="requests/pending" element={<PendingRequests />} />
                     <Route path="requests/history" element={<RequestHistory />} />
-                    <Route path="requests/request/:requestId" element={<Request />} />
+                    <Route path="requests/:requestId" element={<Request />} />
                     <Route path="*" element={<NoPage />} />
                 </Route>
                 <Route path="/" element={<NoPage />}>

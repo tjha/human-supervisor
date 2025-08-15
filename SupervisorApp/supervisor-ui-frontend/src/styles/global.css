@@ -1,0 +1,27 @@
+.no-margin-or-padding {
+    margin: 0;
+    padding: 0;
+}
+
+.no-underline-black {
+    color: black;
+    text-decoration: none;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.left-aligned {
+}
+
+.right-aligned {
+}
+
+.cloudscape-navbar {
+    display: flex;
+    justify-content: space-between; /* Adjust as needed */
+    align-items: center;
+}

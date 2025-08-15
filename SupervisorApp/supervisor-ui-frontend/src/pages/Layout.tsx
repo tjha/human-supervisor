@@ -1,12 +1,16 @@
 import React from "react";
 
-import { Outlet } from "react-router-dom";
+import { Outlet, useParams } from "react-router-dom";
+import { TopNav } from "../components/common/top-nav.tsx";
 
 const Layout = () => {
+    const { storeId } = useParams();
     return (
-        <>
-            <Outlet />
-        </>
+        <TopNav storeName={storeId}>
+            <>
+                <Outlet />
+            </>
+        </TopNav>
     )
 };
 

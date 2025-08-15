@@ -1,1 +1,1 @@
-export { PendingRequests } from './PendingRequests';
+export { PendingRequests } from './pending-requests.tsx';

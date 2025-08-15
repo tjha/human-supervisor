@@ -1,1 +1,1 @@
-export { RequestHistory } from './RequestHistory';
+export { RequestHistory } from './request-history.tsx';
