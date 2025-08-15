@@ -1,4 +1,6 @@
-from fastapi import FastAPI
+from fastapi import FastAPI, HTTPException
+
+from src.exceptions.exceptions import InternalError, ValidationError, RetryableError
 from src.models.request import Request
 from src.repository.requestsRepository import RequestsRepository
 from src.db.db import initialize_db
@@ -15,7 +17,16 @@ async def root():
 # TODO: Support pagination
 @app.get("/stores/{store_id}/requests/pending")
 def get_pending_requests(store_id: str):
-    return {"message": "Hello World"}
+    # TODO: Convert response into api model response obj
+    try:
+        response = requests_repository.get_all_pending(store_id)
+        if len(response) == 0:
+            raise HTTPException(status_code=404)
+        return {"requests": response}
+    except RetryableError:
+        raise HTTPException(status_code=429)
+    except InternalError:
+        raise HTTPException(status_code=500)
 
 # TODO: Support pagination
 @app.get("/stores/{store_id}/requests/history")

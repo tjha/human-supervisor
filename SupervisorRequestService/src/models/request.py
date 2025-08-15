@@ -9,7 +9,7 @@ class Request(BaseModel):
     requestTime: int
     answerTime: int | None = None
     status: str # TODO: Define in separate model (only 2 statuses, PENDING, NOT_PENDING)
-    statusCode: str # TODO: Define in separate model (PENDING_RESPONSE, TIMEOUT, RESPONSE)
+    statusCode: str # TODO: Define in separate model (PENDING_RESPONSE, TIMEOUT, RESPONSE_RECEIVED)
     answer: str | None = None
     resolvedBy: str | None = None
     assignedTo: str | None = None
