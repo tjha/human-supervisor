@@ -8,7 +8,6 @@ import NoPage from "./pages/NoPage/noPage";
 import Layout from "./pages/Layout.tsx";
 import { RequestHistory } from "./pages/requests-history";
 import { Request } from "./pages/request";
-import { TopNav } from "./components/common/top-nav.tsx";
 
 // Inspired by https://www.w3schools.com/react/react_router.asp
 export function App() {
