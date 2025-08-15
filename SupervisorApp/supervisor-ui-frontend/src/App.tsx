@@ -15,7 +15,7 @@ export function App() {
     return (
         <BrowserRouter>
             <Routes>
-                <Route path="/store/:storeId/" element={<Layout />}>
+                <Route path="/stores/:storeId/" element={<Layout />}>
                     <Route index element={<Navigate to="requests/pending" />} />
                     <Route path="requests/pending" element={<PendingRequests />} />
                     <Route path="requests/history" element={<RequestHistory />} />

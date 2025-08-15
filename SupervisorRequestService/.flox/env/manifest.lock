@@ -1,0 +1,511 @@
+{
+  "lockfile-version": 1,
+  "manifest": {
+    "version": 1,
+    "install": {
+      "boto3": {
+        "pkg-path": "python313Packages.boto3"
+      },
+      "fastapi-cli": {
+        "pkg-path": "fastapi-cli"
+      },
+      "python3": {
+        "pkg-path": "python3"
+      },
+      "uvicorn": {
+        "pkg-path": "python313Packages.uvicorn"
+      }
+    },
+    "vars": {
+      "EDITOR": "vim",
+      "VISUAL": "vim"
+    },
+    "hook": {},
+    "profile": {},
+    "options": {}
+  },
+  "packages": [
+    {
+      "attr_path": "python313Packages.boto3",
+      "broken": false,
+      "derivation": "/nix/store/xjsyxj720srp405kpycpmk8bz1gfxw7f-python3.13-boto3-1.38.32.drv",
+      "description": "AWS SDK for Python",
+      "install_id": "boto3",
+      "license": "Apache-2.0",
+      "locked_url": "https://github.com/flox/nixpkgs?rev=005433b926e16227259a1843015b5b2b7f7d1fc3",
+      "name": "python3.13-boto3-1.38.32",
+      "pname": "boto3",
+      "rev": "005433b926e16227259a1843015b5b2b7f7d1fc3",
+      "rev_count": 843472,
+      "rev_date": "2025-08-12T19:39:21Z",
+      "scrape_date": "2025-08-14T00:26:32.744777Z",
+      "stabilities": [
+        "unstable"
+      ],
+      "unfree": false,
+      "version": "python3.13-boto3-1.38.32",
+      "outputs_to_install": [
+        "out"
+      ],
+      "outputs": {
+        "dist": "/nix/store/18cki9zmjj1acg1yzp98h70x9g7n3lwh-python3.13-boto3-1.38.32-dist",
+        "out": "/nix/store/6qi7fk5dpgh01jk9mr6fhhivajkc6nbg-python3.13-boto3-1.38.32"
+      },
+      "system": "aarch64-darwin",
+      "group": "toplevel",
+      "priority": 5
+    },
+    {
+      "attr_path": "python313Packages.boto3",
+      "broken": false,
+      "derivation": "/nix/store/29jc81nw50vhm14jnvy33afxlapmhha4-python3.13-boto3-1.38.32.drv",
+      "description": "AWS SDK for Python",
+      "install_id": "boto3",
+      "license": "Apache-2.0",
+      "locked_url": "https://github.com/flox/nixpkgs?rev=005433b926e16227259a1843015b5b2b7f7d1fc3",
+      "name": "python3.13-boto3-1.38.32",
+      "pname": "boto3",
+      "rev": "005433b926e16227259a1843015b5b2b7f7d1fc3",
+      "rev_count": 843472,
+      "rev_date": "2025-08-12T19:39:21Z",
+      "scrape_date": "2025-08-14T02:00:26.382117Z",
+      "stabilities": [
+        "unstable"
+      ],
+      "unfree": false,
+      "version": "python3.13-boto3-1.38.32",
+      "outputs_to_install": [
+        "out"
+      ],
+      "outputs": {
+        "dist": "/nix/store/024cwamrjip6dbzlb3zc1i0zwsq8gdbq-python3.13-boto3-1.38.32-dist",
+        "out": "/nix/store/nbsl2ajjxwj7gbnqld509q14nnqawah0-python3.13-boto3-1.38.32"
+      },
+      "system": "aarch64-linux",
+      "group": "toplevel",
+      "priority": 5
+    },
+    {
+      "attr_path": "python313Packages.boto3",
+      "broken": false,
+      "derivation": "/nix/store/55c4nkhmnq97yhzfhsap96805rzp1nns-python3.13-boto3-1.38.32.drv",
+      "description": "AWS SDK for Python",
+      "install_id": "boto3",
+      "license": "Apache-2.0",
+      "locked_url": "https://github.com/flox/nixpkgs?rev=005433b926e16227259a1843015b5b2b7f7d1fc3",
+      "name": "python3.13-boto3-1.38.32",
+      "pname": "boto3",
+      "rev": "005433b926e16227259a1843015b5b2b7f7d1fc3",
+      "rev_count": 843472,
+      "rev_date": "2025-08-12T19:39:21Z",
+      "scrape_date": "2025-08-14T02:32:40.874593Z",
+      "stabilities": [
+        "unstable"
+      ],
+      "unfree": false,
+      "version": "python3.13-boto3-1.38.32",
+      "outputs_to_install": [
+        "out"
+      ],
+      "outputs": {
+        "dist": "/nix/store/ks8rnlp77xijdxh7k6iga6950kdrwy5x-python3.13-boto3-1.38.32-dist",
+        "out": "/nix/store/b944agl6128smz11chg3g73nvg20ff1d-python3.13-boto3-1.38.32"
+      },
+      "system": "x86_64-darwin",
+      "group": "toplevel",
+      "priority": 5
+    },
+    {
+      "attr_path": "python313Packages.boto3",
+      "broken": false,
+      "derivation": "/nix/store/9x5jaazs1wc5p12np3as22gvjd7hp1sr-python3.13-boto3-1.38.32.drv",
+      "description": "AWS SDK for Python",
+      "install_id": "boto3",
+      "license": "Apache-2.0",
+      "locked_url": "https://github.com/flox/nixpkgs?rev=005433b926e16227259a1843015b5b2b7f7d1fc3",
+      "name": "python3.13-boto3-1.38.32",
+      "pname": "boto3",
+      "rev": "005433b926e16227259a1843015b5b2b7f7d1fc3",
+      "rev_count": 843472,
+      "rev_date": "2025-08-12T19:39:21Z",
+      "scrape_date": "2025-08-14T03:14:18.019917Z",
+      "stabilities": [
+        "unstable"
+      ],
+      "unfree": false,
+      "version": "python3.13-boto3-1.38.32",
+      "outputs_to_install": [
+        "out"
+      ],
+      "outputs": {
+        "dist": "/nix/store/gdwxzgyjnms6qy9hy5j97i9bkllbszsj-python3.13-boto3-1.38.32-dist",
+        "out": "/nix/store/2bgmp1i0s6gw040aknfcw4205cgvw3vn-python3.13-boto3-1.38.32"
+      },
+      "system": "x86_64-linux",
+      "group": "toplevel",
+      "priority": 5
+    },
+    {
+      "attr_path": "fastapi-cli",
+      "broken": false,
+      "derivation": "/nix/store/4lp7183fj7x8swmdn84qijan1v51xakl-python3.13-fastapi-cli-0.0.7.drv",
+      "description": "Run and manage FastAPI apps from the command line with FastAPI CLI",
+      "install_id": "fastapi-cli",
+      "license": "MIT",
+      "locked_url": "https://github.com/flox/nixpkgs?rev=005433b926e16227259a1843015b5b2b7f7d1fc3",
+      "name": "fastapi-cli-0.0.7",
+      "pname": "fastapi-cli",
+      "rev": "005433b926e16227259a1843015b5b2b7f7d1fc3",
+      "rev_count": 843472,
+      "rev_date": "2025-08-12T19:39:21Z",
+      "scrape_date": "2025-08-14T00:26:12.504372Z",
+      "stabilities": [
+        "unstable"
+      ],
+      "unfree": false,
+      "version": "0.0.7",
+      "outputs_to_install": [
+        "out"
+      ],
+      "outputs": {
+        "dist": "/nix/store/204ln3rmnyrrsksyf0a0hr05qmsyfm4j-python3.13-fastapi-cli-0.0.7-dist",
+        "out": "/nix/store/nsrkr2q8ifz7pa3jqcv2xclp1am5x0vf-python3.13-fastapi-cli-0.0.7"
+      },
+      "system": "aarch64-darwin",
+      "group": "toplevel",
+      "priority": 5
+    },
+    {
+      "attr_path": "fastapi-cli",
+      "broken": false,
+      "derivation": "/nix/store/4fpwzzmni9ph5kcrdgw75a6yb9r1gqpl-python3.13-fastapi-cli-0.0.7.drv",
+      "description": "Run and manage FastAPI apps from the command line with FastAPI CLI",
+      "install_id": "fastapi-cli",
+      "license": "MIT",
+      "locked_url": "https://github.com/flox/nixpkgs?rev=005433b926e16227259a1843015b5b2b7f7d1fc3",
+      "name": "fastapi-cli-0.0.7",
+      "pname": "fastapi-cli",
+      "rev": "005433b926e16227259a1843015b5b2b7f7d1fc3",
+      "rev_count": 843472,
+      "rev_date": "2025-08-12T19:39:21Z",
+      "scrape_date": "2025-08-14T01:59:38.818763Z",
+      "stabilities": [
+        "unstable"
+      ],
+      "unfree": false,
+      "version": "0.0.7",
+      "outputs_to_install": [
+        "out"
+      ],
+      "outputs": {
+        "dist": "/nix/store/p1ybbdy39wrvg2vckzk4n3l38i6n5p3y-python3.13-fastapi-cli-0.0.7-dist",
+        "out": "/nix/store/53rapgbxi329x2ps4fcxf9p44ppsnv6z-python3.13-fastapi-cli-0.0.7"
+      },
+      "system": "aarch64-linux",
+      "group": "toplevel",
+      "priority": 5
+    },
+    {
+      "attr_path": "fastapi-cli",
+      "broken": false,
+      "derivation": "/nix/store/vsrqqvrqf01jdv93s0b8gnr245hpv1f5-python3.13-fastapi-cli-0.0.7.drv",
+      "description": "Run and manage FastAPI apps from the command line with FastAPI CLI",
+      "install_id": "fastapi-cli",
+      "license": "MIT",
+      "locked_url": "https://github.com/flox/nixpkgs?rev=005433b926e16227259a1843015b5b2b7f7d1fc3",
+      "name": "fastapi-cli-0.0.7",
+      "pname": "fastapi-cli",
+      "rev": "005433b926e16227259a1843015b5b2b7f7d1fc3",
+      "rev_count": 843472,
+      "rev_date": "2025-08-12T19:39:21Z",
+      "scrape_date": "2025-08-14T02:32:16.539983Z",
+      "stabilities": [
+        "unstable"
+      ],
+      "unfree": false,
+      "version": "0.0.7",
+      "outputs_to_install": [
+        "out"
+      ],
+      "outputs": {
+        "dist": "/nix/store/92kwr2x82mrld46z0ribd6rfnhqfpa5g-python3.13-fastapi-cli-0.0.7-dist",
+        "out": "/nix/store/bv6lhy0n3h6kjffhf1wm4fdk9yiwcmgf-python3.13-fastapi-cli-0.0.7"
+      },
+      "system": "x86_64-darwin",
+      "group": "toplevel",
+      "priority": 5
+    },
+    {
+      "attr_path": "fastapi-cli",
+      "broken": false,
+      "derivation": "/nix/store/rjpk14vvqp6vqhbwnc3qa97pfsxdjfv9-python3.13-fastapi-cli-0.0.7.drv",
+      "description": "Run and manage FastAPI apps from the command line with FastAPI CLI",
+      "install_id": "fastapi-cli",
+      "license": "MIT",
+      "locked_url": "https://github.com/flox/nixpkgs?rev=005433b926e16227259a1843015b5b2b7f7d1fc3",
+      "name": "fastapi-cli-0.0.7",
+      "pname": "fastapi-cli",
+      "rev": "005433b926e16227259a1843015b5b2b7f7d1fc3",
+      "rev_count": 843472,
+      "rev_date": "2025-08-12T19:39:21Z",
+      "scrape_date": "2025-08-14T03:13:25.695662Z",
+      "stabilities": [
+        "unstable"
+      ],
+      "unfree": false,
+      "version": "0.0.7",
+      "outputs_to_install": [
+        "out"
+      ],
+      "outputs": {
+        "dist": "/nix/store/7s85z3phpck6ij677q48n74q430xx3np-python3.13-fastapi-cli-0.0.7-dist",
+        "out": "/nix/store/sg079bgwbflxppv3fpai9hskmyagkavn-python3.13-fastapi-cli-0.0.7"
+      },
+      "system": "x86_64-linux",
+      "group": "toplevel",
+      "priority": 5
+    },
+    {
+      "attr_path": "python3",
+      "broken": false,
+      "derivation": "/nix/store/0sgpwdw94q31k5y4gfblnwr7vf7cdkvx-python3-3.13.5.drv",
+      "description": "High-level dynamically-typed programming language",
+      "install_id": "python3",
+      "license": "Python-2.0",
+      "locked_url": "https://github.com/flox/nixpkgs?rev=005433b926e16227259a1843015b5b2b7f7d1fc3",
+      "name": "python3-3.13.5",
+      "pname": "python3",
+      "rev": "005433b926e16227259a1843015b5b2b7f7d1fc3",
+      "rev_count": 843472,
+      "rev_date": "2025-08-12T19:39:21Z",
+      "scrape_date": "2025-08-14T00:26:22.143369Z",
+      "stabilities": [
+        "unstable"
+      ],
+      "unfree": false,
+      "version": "3.13.5",
+      "outputs_to_install": [
+        "out"
+      ],
+      "outputs": {
+        "out": "/nix/store/v72ywdz0dd2d6sb3knymx9ww8r6pcqba-python3-3.13.5"
+      },
+      "system": "aarch64-darwin",
+      "group": "toplevel",
+      "priority": 5
+    },
+    {
+      "attr_path": "python3",
+      "broken": false,
+      "derivation": "/nix/store/1cdadwmiqljyxpc2q5fsicj24yf6vir4-python3-3.13.5.drv",
+      "description": "High-level dynamically-typed programming language",
+      "install_id": "python3",
+      "license": "Python-2.0",
+      "locked_url": "https://github.com/flox/nixpkgs?rev=005433b926e16227259a1843015b5b2b7f7d1fc3",
+      "name": "python3-3.13.5",
+      "pname": "python3",
+      "rev": "005433b926e16227259a1843015b5b2b7f7d1fc3",
+      "rev_count": 843472,
+      "rev_date": "2025-08-12T19:39:21Z",
+      "scrape_date": "2025-08-14T02:00:06.295430Z",
+      "stabilities": [
+        "unstable"
+      ],
+      "unfree": false,
+      "version": "3.13.5",
+      "outputs_to_install": [
+        "out"
+      ],
+      "outputs": {
+        "debug": "/nix/store/lnjp4kv8avwmkrfxxxa38pyqxqx6ajpv-python3-3.13.5-debug",
+        "out": "/nix/store/cr7c6cf8y7sbqwq9bj7lrm977x7c4mv9-python3-3.13.5"
+      },
+      "system": "aarch64-linux",
+      "group": "toplevel",
+      "priority": 5
+    },
+    {
+      "attr_path": "python3",
+      "broken": false,
+      "derivation": "/nix/store/y4m8sfxbkhwzd29qp601973gxfs4bkv4-python3-3.13.5.drv",
+      "description": "High-level dynamically-typed programming language",
+      "install_id": "python3",
+      "license": "Python-2.0",
+      "locked_url": "https://github.com/flox/nixpkgs?rev=005433b926e16227259a1843015b5b2b7f7d1fc3",
+      "name": "python3-3.13.5",
+      "pname": "python3",
+      "rev": "005433b926e16227259a1843015b5b2b7f7d1fc3",
+      "rev_count": 843472,
+      "rev_date": "2025-08-12T19:39:21Z",
+      "scrape_date": "2025-08-14T02:32:28.050323Z",
+      "stabilities": [
+        "unstable"
+      ],
+      "unfree": false,
+      "version": "3.13.5",
+      "outputs_to_install": [
+        "out"
+      ],
+      "outputs": {
+        "out": "/nix/store/9zzyv1p496m8b7j8v3y2dqq1xii9anx5-python3-3.13.5"
+      },
+      "system": "x86_64-darwin",
+      "group": "toplevel",
+      "priority": 5
+    },
+    {
+      "attr_path": "python3",
+      "broken": false,
+      "derivation": "/nix/store/5cjmvj85qx59nw08isq5q63kvc3ccwi1-python3-3.13.5.drv",
+      "description": "High-level dynamically-typed programming language",
+      "install_id": "python3",
+      "license": "Python-2.0",
+      "locked_url": "https://github.com/flox/nixpkgs?rev=005433b926e16227259a1843015b5b2b7f7d1fc3",
+      "name": "python3-3.13.5",
+      "pname": "python3",
+      "rev": "005433b926e16227259a1843015b5b2b7f7d1fc3",
+      "rev_count": 843472,
+      "rev_date": "2025-08-12T19:39:21Z",
+      "scrape_date": "2025-08-14T03:13:56.690493Z",
+      "stabilities": [
+        "unstable"
+      ],
+      "unfree": false,
+      "version": "3.13.5",
+      "outputs_to_install": [
+        "out"
+      ],
+      "outputs": {
+        "debug": "/nix/store/h5y23q0k2xzr0aa17y7b82y826ch7yq9-python3-3.13.5-debug",
+        "out": "/nix/store/9yh9ak97gn659bk4d3n411fx6c0ng7s2-python3-3.13.5"
+      },
+      "system": "x86_64-linux",
+      "group": "toplevel",
+      "priority": 5
+    },
+    {
+      "attr_path": "python313Packages.uvicorn",
+      "broken": false,
+      "derivation": "/nix/store/bxsrfgv9s50idcm0mysh684vrz5iqfnm-python3.13-uvicorn-0.34.2.drv",
+      "description": "Lightning-fast ASGI server",
+      "install_id": "uvicorn",
+      "license": "BSD-3-Clause",
+      "locked_url": "https://github.com/flox/nixpkgs?rev=005433b926e16227259a1843015b5b2b7f7d1fc3",
+      "name": "python3.13-uvicorn-0.34.2",
+      "pname": "uvicorn",
+      "rev": "005433b926e16227259a1843015b5b2b7f7d1fc3",
+      "rev_count": 843472,
+      "rev_date": "2025-08-12T19:39:21Z",
+      "scrape_date": "2025-08-14T00:26:43.387988Z",
+      "stabilities": [
+        "unstable"
+      ],
+      "unfree": false,
+      "version": "0.34.2",
+      "outputs_to_install": [
+        "out"
+      ],
+      "outputs": {
+        "dist": "/nix/store/v3qc3f5a11zs3f48929zsd1a872pqg9f-python3.13-uvicorn-0.34.2-dist",
+        "out": "/nix/store/mwvjz0sqp8b47cpp654jrma8dv7jy6wa-python3.13-uvicorn-0.34.2",
+        "testsout": "/nix/store/8mdglg2gkw9y2sxgfa5gqgq0phc35c3r-python3.13-uvicorn-0.34.2-testsout"
+      },
+      "system": "aarch64-darwin",
+      "group": "toplevel",
+      "priority": 5
+    },
+    {
+      "attr_path": "python313Packages.uvicorn",
+      "broken": false,
+      "derivation": "/nix/store/ip2p5l0aaayq8bk5swzh2sspl0pmf8bf-python3.13-uvicorn-0.34.2.drv",
+      "description": "Lightning-fast ASGI server",
+      "install_id": "uvicorn",
+      "license": "BSD-3-Clause",
+      "locked_url": "https://github.com/flox/nixpkgs?rev=005433b926e16227259a1843015b5b2b7f7d1fc3",
+      "name": "python3.13-uvicorn-0.34.2",
+      "pname": "uvicorn",
+      "rev": "005433b926e16227259a1843015b5b2b7f7d1fc3",
+      "rev_count": 843472,
+      "rev_date": "2025-08-12T19:39:21Z",
+      "scrape_date": "2025-08-14T02:00:45.718714Z",
+      "stabilities": [
+        "unstable"
+      ],
+      "unfree": false,
+      "version": "0.34.2",
+      "outputs_to_install": [
+        "out"
+      ],
+      "outputs": {
+        "dist": "/nix/store/clhdhs9p843igdrw85y2zhc5bvz44k1z-python3.13-uvicorn-0.34.2-dist",
+        "out": "/nix/store/40y1vh700lgkrc2b2sz6spxghcfygyc7-python3.13-uvicorn-0.34.2",
+        "testsout": "/nix/store/k44wp3rjz4rlhzb6dbq5dsrwsfkzvdml-python3.13-uvicorn-0.34.2-testsout"
+      },
+      "system": "aarch64-linux",
+      "group": "toplevel",
+      "priority": 5
+    },
+    {
+      "attr_path": "python313Packages.uvicorn",
+      "broken": false,
+      "derivation": "/nix/store/qd5lfcsqx2vp88bnqllhpykms1ypfifj-python3.13-uvicorn-0.34.2.drv",
+      "description": "Lightning-fast ASGI server",
+      "install_id": "uvicorn",
+      "license": "BSD-3-Clause",
+      "locked_url": "https://github.com/flox/nixpkgs?rev=005433b926e16227259a1843015b5b2b7f7d1fc3",
+      "name": "python3.13-uvicorn-0.34.2",
+      "pname": "uvicorn",
+      "rev": "005433b926e16227259a1843015b5b2b7f7d1fc3",
+      "rev_count": 843472,
+      "rev_date": "2025-08-12T19:39:21Z",
+      "scrape_date": "2025-08-14T02:32:53.912948Z",
+      "stabilities": [
+        "unstable"
+      ],
+      "unfree": false,
+      "version": "0.34.2",
+      "outputs_to_install": [
+        "out"
+      ],
+      "outputs": {
+        "dist": "/nix/store/q98zzhlq9jvvsm83gkx5wx59lsjd67y1-python3.13-uvicorn-0.34.2-dist",
+        "out": "/nix/store/haizkwbacrzxnc83vvjbrszdvbhm6x3n-python3.13-uvicorn-0.34.2",
+        "testsout": "/nix/store/f7srkc6nwb8jm0ffcpfxnl51pnq42j2r-python3.13-uvicorn-0.34.2-testsout"
+      },
+      "system": "x86_64-darwin",
+      "group": "toplevel",
+      "priority": 5
+    },
+    {
+      "attr_path": "python313Packages.uvicorn",
+      "broken": false,
+      "derivation": "/nix/store/602dc86p893chjvnnr26vpvg6as9qskm-python3.13-uvicorn-0.34.2.drv",
+      "description": "Lightning-fast ASGI server",
+      "install_id": "uvicorn",
+      "license": "BSD-3-Clause",
+      "locked_url": "https://github.com/flox/nixpkgs?rev=005433b926e16227259a1843015b5b2b7f7d1fc3",
+      "name": "python3.13-uvicorn-0.34.2",
+      "pname": "uvicorn",
+      "rev": "005433b926e16227259a1843015b5b2b7f7d1fc3",
+      "rev_count": 843472,
+      "rev_date": "2025-08-12T19:39:21Z",
+      "scrape_date": "2025-08-14T03:14:37.846101Z",
+      "stabilities": [
+        "unstable"
+      ],
+      "unfree": false,
+      "version": "0.34.2",
+      "outputs_to_install": [
+        "out"
+      ],
+      "outputs": {
+        "dist": "/nix/store/7q35a04h1p2jbk6j6kdkcavvfd0irl6m-python3.13-uvicorn-0.34.2-dist",
+        "out": "/nix/store/9cvx7kmzkj0pcwrrc445mkjlbnnx08ww-python3.13-uvicorn-0.34.2",
+        "testsout": "/nix/store/v6nrbxyravz60mmpdwkly24mbzf15w6y-python3.13-uvicorn-0.34.2-testsout"
+      },
+      "system": "x86_64-linux",
+      "group": "toplevel",
+      "priority": 5
+    }
+  ]
+}
