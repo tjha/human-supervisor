@@ -38,12 +38,7 @@ class RequestsRepository:
 
     # TODO: Implement this
     def get_request(self, pk: str):
-        try:
-            table = self.__db.Table('Requests')
-            response = table.get_item(Key={'pk': pk})
-            return response['Item']
-        except ClientError as e:
-            raise ValueError(e.response['Error']['Message'])
+        pass
 
     def create_request(self, request: dict):
         response = self.__table.put_item(Item=request)
@@ -52,25 +47,5 @@ class RequestsRepository:
     # TODO: Update to request specifics
     # TODO: Make sure these changes to pk/sk result in a transactional delete and put to avoid creating a new entry
     def update_request(self, request: dict):
-        table = self.__db.Table('Requests')
-        response = table.update_item(
-            Key={'pk': request.get('pk')},
-            UpdateExpression="""                
-                set
-                    author=:author,
-                    description=:description,
-                    ingredients=:ingredients,
-                    title=:title,
-                    steps=:steps
-            """,
-            ExpressionAttributeValues={
-                ':author': request.get('author'),
-                ':description': request.get('description'),
-                ':ingredients': request.get('ingredients'),
-                ':title': request.get('title'),
-                ':steps': request.get('steps')
-            },
-            ReturnValues="UPDATED_NEW"
-        )
-        return response
+        pass
 

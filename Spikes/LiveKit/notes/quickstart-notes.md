@@ -3,6 +3,7 @@
 Starting here: https://docs.livekit.io/agents/start/voice-ai/
 
 ## Setup Notes
+
 * Init flox in voice-ai-quickstart
 * Set flox edit to vim default (env variables in manifest.toml)
 * Install python3
