@@ -10,20 +10,20 @@ export function TopNav({ storeName, children }: TopNavProps) {
         <div>
             <TopNavigation
                 identity={{
-                    href: `/store/${storeName}/requests/pending`,
+                    href: `/stores/${storeName}/requests/pending`,
                     title: "",
                 }}
                 utilities={[
                     {
                         type: "button",
                         text: "Pending",
-                        href: `/store/${storeName}/requests/pending`,
+                        href: `/stores/${storeName}/requests/pending`,
                         external: false,
                     },
                     {
                         type: "button",
                         text: "History",
-                        href: `/store/${storeName}/requests/history`,
+                        href: `/stores/${storeName}/requests/history`,
                         external: false,
                     },
                     /*
