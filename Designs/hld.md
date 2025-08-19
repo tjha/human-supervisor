@@ -80,7 +80,7 @@ our AI agent receptionist, I can:***
 1. A dedicated service will handle all async notifications to customers for 
    completed requests.
 1. All updates to the request table will trigger DDB streams and made available
-   to all clients throughe eventbus.
+   to all clients through eventbus.
 1. Knowlege base will be updated with a lambda that is subscriped (via SQS) to
    request completion events filtering for appropriate status code. It can then
    talk to the outboundNotifiation service to send messsages to customers.
