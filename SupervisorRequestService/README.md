@@ -5,10 +5,14 @@ which contains all requests regardless of their lifecycle status (i.e.
 Pending, Resolved, or Unresolved).
 
 ## Local Environment Setup
+1. `flox activate` should setup all dependencies you need.
+1. Create an `.env` file with AWS credentials similar to `.env.example` 
 
 ## Local Environment Testing
-For development speed, the service can be run locally against a local DDB
-server.
+1. `flox activate`
+1. `source .venv/bin/activate`
+1. `cd src/`
+1. `fastapi dev`
 
 ## Personal Stack Deployment
 TBD

@@ -35,7 +35,15 @@ def get_request_history(store_id: str):
 
 @app.get("/stores/{store_id}/requests/{request_id}")
 def get_request(store_id: str, request_id: str):
-    return {"message": "Hello World"}
+    try:
+        response = requests_repository.get_request(store_id, request_id)
+        if len(response) == 0:
+            raise HTTPException(status_code=404)
+        return {"request": response}
+    except RetryableError:
+        raise HTTPException(status_code=429)
+    except InternalError:
+        raise HTTPException(status_code=500)
 
 @app.post("/stores/{store_id}/requests")
 def create_request(store_id: str, request: Request):

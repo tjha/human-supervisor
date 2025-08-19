@@ -7,8 +7,10 @@ import time
 class RequestSchema(BaseModel):
     # storeId
     pk: str
-    # status._.priority._.requestTime._.requestId
+    # requestId
     sk: str
+    # status._.priority._.requestTime._.requestId
+    secondarySk: str
     storeId: str
     status: str
     statusCode: str
@@ -31,7 +33,8 @@ def construct_request_schema(request: Request, store_id: str):
     current_time = time.time()
     return RequestSchema(
         pk=str(store_id),
-        sk=f"{request.status}._.{request.priority}._.{str(request.requestTime)}._.{request_id}",
+        sk=request_id,
+        secondarySk=f"{request.status}._.{request.priority}._.{str(request.requestTime)}._.{request_id}",
         requestId=request_id,
         storeId=str(store_id),
         name=request.name,
