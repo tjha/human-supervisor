@@ -51,9 +51,11 @@ def create_request(store_id: str, request: Request):
     requests_repository.create_request(request_schema.model_dump())
     return request_schema # TODO: Replace with a defined success/failure status response
 
+# TODO: Deprecate this in favor of patch operation
 @app.put("/stores/{store_id}/requests/{request_id}")
 def update_request(store_id: str, request: Request):
-    requests_repository.create_request(request.model_dump())
+    request_schema = requestSchema.construct_request_schema(request, store_id)
+    requests_repository.create_request(request_schema.model_dump())
     return {"message": "Hello World"}
 
 # TODO: Define a patch operation to update providing only limited set of fields

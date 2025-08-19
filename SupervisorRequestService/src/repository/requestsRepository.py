@@ -24,7 +24,7 @@ class RequestsRepository:
         try:
             return self.__table.query(
                 IndexName="secondarySk-index",
-                KeyConditionExpression=(Key("pk").eq(f"{store_id}") & Key("sk").begins_with("PENDING")),
+                KeyConditionExpression=(Key("pk").eq(f"{store_id}") & Key("secondarySk").begins_with("PENDING")),
                 ScanIndexForward=False).get('Items', [])
         except ClientError as e:
             logging.exception(f"DDB exception when trying to get all pending requests for store_id {store_id}")
