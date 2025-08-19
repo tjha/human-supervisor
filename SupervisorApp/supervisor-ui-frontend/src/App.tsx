@@ -4,7 +4,7 @@ import React from 'react';
 
 import { BrowserRouter, Routes, Route, Navigate } from "react-router-dom";
 import { PendingRequests } from "./pages/pending-requests";
-import NoPage from "./pages/NoPage/noPage";
+import NoPage from "./pages/no-page/no-page.tsx";
 import Layout from "./pages/Layout.tsx";
 import { RequestHistory } from "./pages/requests-history";
 import { Request } from "./pages/request";
